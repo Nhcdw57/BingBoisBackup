@@ -1,0 +1,32 @@
+# BingBoisRepo
+Team Bing Boi's Repo for making sweet code.
+
+Team Collabotors:
+
+Julian Clark;
+
+Matt Gregory;
+
+Andrew Jones;
+
+Spenser Kutney;
+
+Michael Lazzari;
+
+Scott Lynch;
+
+Damain Moquin;
+
+Kyle Noel;
+
+Shardool Pathak - Shardool added this text
+
+Daniel Sanatar;
+
+Matthew Tran;
+
+Owen Vnek;
+
+Connor Wong;
+
+Terrance Peters -- Project Manager;

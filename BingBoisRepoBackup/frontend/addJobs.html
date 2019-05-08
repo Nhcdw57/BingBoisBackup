@@ -1,0 +1,75 @@
+{% extends "base_generic.html" %}
+{% block headercss %}
+        <link rel="stylesheet" href="/static/addJobs.css">
+{% endblock %}
+{% block headerjava %}
+
+    {% if position == None %}
+    <script src="/static/create_position.js" type="text/javascript"></script>
+    {% else %}
+    <script type="text/javascript">
+        var position_id = {{position.positionid}};
+    </script>
+    <script src="/static/edit_position.js" type="text/javascript"></script>
+    {% endif %}
+
+{% endblock %}
+
+{% block content %}
+
+        <br><br><br>
+        <form class="job-descriptions" style="margin-top: -2%;" onsubmit="event.preventDefault(); addJobValidate();">
+            <fieldset id="mainform">
+                <!-- Form Name -->
+                <legend style="margin-left: 2%;padding-left: 15px;" id="addjob">{% if position == None %}Add Job Position{% else %}Edit Job Position{% endif %}</legend>
+                <!-- Appended Input-->
+                <div class="form-group" id="textBox" style="margin-left: 2%;">
+                    <label class="col-md-4 control-label" for="title">Job Title (required)</label>
+                    <div class="col-md-5">
+                        <div class="input-group">
+                            <input id="title" name="title" class="form-control" placeholder="Title (required)" type="text" required="required" value="{{position.title}}">
+                        </div>
+                    </div>
+                </div>
+                <!-- Appended Input-->
+                <div class="form-row" style="margin-left: 2%;padding-left: 15px;margin-bottom: 16px;">
+                    <div class="col" style="padding-left: 0px;">
+                        <label class="col-md-4 control-label" for="startDate" style="padding-left: 0px;margin-bottom: 0px;">Start Date</label>
+                        <input id="startDate" name="startDate" class="col-lg-3 col-md-3 col-sm-4 form-control" placeholder="mm/dd/yy" type="date" value="{{position.startdate}}">
+                    </div>
+                    <div class="col" style="padding-left: 0px;margin-left: -40%;">
+                        <label class="col-md-6 control-label" for="postExpirationDate" style="padding-left: 0px;margin-bottom: 0px;margin-left: 0px;">Posting Expiration Date</label>
+                        <input id="postExpirationDate" name="postExpirationDate" class="col-lg-3 col-md-3 col-sm-4 form-control" placeholder="mm/dd/yy" type="date" value="{{position.postingexpirationdate}}">
+                    </div>
+                </div>
+                <!-- Textarea -->
+                <div class="form-group" style="margin-left: 2%;">
+                    <label class="col-md-4 col-sm-6 control-label" for="jobDescription" style="margin-bottom: 0px;">Job Description (required)</label>
+                    <div class="col-lg-6 col-md-6 col-sm-8">
+                        <textarea class="form-control" id="jobDescription" name="Job Description (required)" required="required" placeholder="Enter the job's description here"></textarea>
+                    </div>
+                    <br>
+                    
+                    <div class="col" id="joblocation">
+                        <label class="col-md-4 control-label" for="placeholder" style="margin-left: -1%;">Job Location</label>
+                        <input id="placeholder" name="placeholder" class="col-lg-3 col-md-3 col-sm-4 form-control" placeholder="ex. Amherst, MA" type="text" value="{{position.location}}">
+                    </div>
+
+                    <div class="form-check" id="availableto">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1"> &nbsp;Only Available to Current Employees</label>
+                    </div>
+
+                    <!-- Button (Double) -->
+                    <div class="form-group">
+                        <div class="col-md-8">
+                            <button id="addJob" name="addJob" class="btn btn-primary" style="background-color:lightgreen">{% if position == None %}Add Job{% else %}Edit Job{% endif %}</button>
+                            <button id="deleteJob" name="deleteJob" class="btn btn-light" onclick="window.location.href='/';">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div id="user">{{ user.get_username }}
+        </div>
+{% endblock %}

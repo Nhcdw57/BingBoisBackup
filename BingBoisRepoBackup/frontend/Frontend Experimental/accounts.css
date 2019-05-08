@@ -1,0 +1,244 @@
+.navbar { 
+                z-index: 1000;
+            }
+            a:link {
+              color: green;
+            }
+            a:visited {
+              color: darkseagreen;
+            }
+            a:hover {
+              color: lightgreen;
+            }
+            a:active {
+              color: mediumspringgreen;
+            }
+            #main{
+                background-size: 100%;
+                color: black;
+                background-color: white;
+                font-family: monospace;
+                
+            }   
+            #companyname{
+                font-size: 42px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                color: silver;
+                margin-top:3%;
+                z-index: 1000;
+                width: 46%;
+                margin: 0 auto;
+            }
+            #slogan{
+                text-align: center;
+                font-size: 26.5px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+            }
+            #results{
+                font-size: 17px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                padding-left: 12.7%;
+                top: 13%;
+                z-index: 1000;
+                position: fixed;
+            }
+            
+            .navbar li, a{
+                color: silver;
+            }
+            #above{
+            }
+            #showclosed{
+                font-size: 14.5px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                padding-left: 13.7%;
+                float: left;
+                padding-right: 23%;
+                top: 16.5%;
+                position: fixed;
+            }
+            #exampleCheck1{
+                width:18px;
+                height:18px;
+                margin-top: 1px;
+            }
+            #searchagain{
+                width: 300px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                font-size: 13px;
+                right: 13.4%;
+                position: fixed;
+                bottom: 80.3%
+            }
+            #searchradius{
+                font-size: 16px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                padding-left: 13%;
+                position: fixed;
+                z-index: 1000;
+                top: 86%;
+            }
+            #milebar{
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                font-size: 14px;
+                width: 70px;
+                height: 4.7%;
+                z-index: 1000;
+                position: absolute;
+                left: 12.5%;
+                margin-left: 120px;
+                top: 87.2%;
+            }
+            .textl{
+                float: left;
+                margin-right: 1%;
+                z-index: 1000;
+                position: fixed;
+                top: 88%;
+                left: 12.5%;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                font-size: 14px;
+            }
+            .textr{
+                z-index: 1000;
+                position: fixed;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                font-size: 14px;
+                top: 88%;
+                left: 12.5%;
+                padding-left: 200px;
+                
+            }
+            #jobs {
+                text-align: center;
+                background-color: #e8e8e8;
+                width: 800px;
+                height: 100px;
+                border: 1px solid black;
+                overflow-y: scroll;
+                position: fixed;
+                left: 60%;
+                width: 35%;
+                top: 20%;
+                height: 60%;
+            }
+            #remove {
+                text-align: center;
+                background-color: gray;
+                width: 800px;
+                height: 100px;
+                border: 1px solid black;
+                overflow-y: scroll;
+                position: fixed;
+                left: 80%;
+                width: 10%;
+                top: 83%;
+                height: 5%;
+            }
+            article > positionlabel {
+                text-align: left;
+                font-size: 10px;
+                display: inline-block;
+                width: 17.5%;
+                border: 1px outset black;
+                color: white;
+                background-color:#2b2b2b;
+                padding-left: 5px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                box-sizing: border-box;
+                position: fixed;
+                left: 61.75%;
+                top: 20%;
+            }
+            article > otherlabel1 {
+                text-align: left;
+                font-size: 10px;
+                display: inline-block;
+                width: 14%;
+                border: 1px outset black;
+                color: white;
+                background-color:#2b2b2b;
+                padding-left: 5px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                box-sizing: border-box;
+                position: fixed;
+                left: 79.2%;
+                top: 20%;
+            }
+            article > position {
+                text-align: left;
+                font-size: 1.4vw;
+                display: inline-block;
+                width: 50%;
+                color: lightgreen;
+                background-color:white;
+                padding: 0.6vw;
+                box-sizing: border-box;
+                font-weight: bold;
+                height: 3.2vw;
+            }
+            article > other {
+                text-align: center;
+                font-size: 1.4vw;
+                display: inline-block;
+                width: 20%;
+                background-color:white;
+                padding-top: 0.6vw;
+                box-sizing: border-box;
+                height: 3.2vw;
+            }
+            article > trash {
+                text-align: center;
+                font-size: 1.4vw;
+                display: inline-block;
+                width: 10%;
+                background-color:white;
+                padding-top: 0.6vw;
+                box-sizing: border-box;
+                height: 3.2vw;
+            }
+            article > tree {
+                text-align: left;
+                font-size: 10px;
+                display: inline-block;
+                width: 50%;
+                color: BLACK;
+                background-color:black;
+                padding-left: 5px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                box-sizing: border-box;
+                position: fixed;
+                left: 5%;
+                top: 20%;
+                height: 68%;
+                overflow: scroll;
+            }
+            .add {
+                text-align: center;
+                font-size: 1.4vw;
+                display: inline-block;
+                background-color:limegreen;
+                color: white;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                box-sizing: border-box;
+                position: fixed;
+                left: 72.5%;
+                width: 10%;
+                top: 83%;
+            }
+            article {
+                font-size: 0;
+            }

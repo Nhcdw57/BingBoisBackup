@@ -1,0 +1,303 @@
+            .navbar { 
+               z-index: 1000; 
+            }
+            a:link {
+              color: green;
+            }
+            a:visited {
+              color: darkseagreen;
+            }
+            a:hover {
+              color: lightgreen;
+            }
+            a:active {
+              color: mediumspringgreen;
+            }
+            #main{
+                background-size: 100%;
+                color: black;
+                background-color: white;
+                font-family: monospace;
+                
+            }  
+            
+            #companyname{
+                font-size: 42px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                color: silver;
+                margin-top:3%;
+                z-index: 1000;
+                width: 46%;
+                margin: 0 auto;
+            }
+
+            #slogan{
+                text-align: center;
+                font-size: 26.5px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+            }
+
+            #results{
+                font-size: 17px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                padding-left: 12.7%;
+                top: 13%;
+                z-index: 1000;
+                position: fixed;
+            }
+            
+            .navbar li, a{
+                color: silver;
+            }
+            #above{
+
+            }
+
+            #showclosed{
+                font-size: 14.5px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                padding-left: 13.7%;
+                float: left;
+                padding-right: 23%;
+                top: 16.5%;
+                position: fixed;
+            }
+
+            #exampleCheck1{
+                width:18px;
+                height:18px;
+                margin-top: 1px;
+            }
+
+            #searchagain{
+                width: 300px;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                font-size: 13px;
+                right: 13.4%;
+                position: fixed;
+                bottom: 85.3%
+            }
+            .textl{
+                float: left;
+                margin-right: 1%;
+                z-index: 1000;
+                position: fixed;
+                top: 88%;
+                left: 12.5%;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                font-size: 14px;
+            }
+            .textr{
+                z-index: 1000;
+                position: fixed;
+                font-family: monospace;
+                transform: scaleX(1.0917);
+                font-size: 14px;
+                top: 88%;
+                left: 12.5%;
+                padding-left: 200px;
+                
+            }
+            #jobs {
+                text-align: left;
+                background-color: #e8e8e8;
+                width: 800px;
+                height: 100px;
+                border: 1px solid black;
+                overflow-y: scroll;
+                position: fixed;
+                left: 12.3%;
+                width: 75.4%;
+                top: 15%;
+                height: 68%;
+            }
+            #description {
+                text-align: left;
+                background-color: white;
+                width: 800px;
+                height: 100px;
+                overflow-y: scroll;
+                position: fixed;
+                left: 13.9%;
+                width: 72.2%;
+                top: 20%;
+                height: 60%;
+                z-index: -1;
+            }
+            article > positionlabel {
+                text-align: left;
+                font-size: 10px;
+                display: inline-block;
+                width: 37.7%;
+                border: 1px outset black;
+                color: white;
+                background-color:#2b2b2b;
+                padding-left: 5px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                box-sizing: border-box;
+                position: fixed;
+                left: 13.8%;
+                top: 15%;
+            }
+            article > otherlabel1 {
+                text-align: left;
+                font-size: 10px;
+                display: inline-block;
+                width: 17.3%;
+                border: 1px outset black;
+                color: white;
+                background-color:#2b2b2b;
+                padding-left: 5px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                box-sizing: border-box;
+                position: fixed;
+                left: 51.5%;
+                top: 15%;
+            }
+            article > otherlabel2 {
+                text-align: left;
+                font-size: 10px;
+                display: inline-block;
+                width: 17.3%;
+                border: 1px outset black;
+                color: white;
+                background-color:#2b2b2b;
+                padding-left: 5px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                box-sizing: border-box;
+                position: fixed;
+                left: 68.8%;
+                top: 15%;
+            }
+            article > position {
+                text-align: left;
+                font-size: 1.4vw;
+                display: inline-block;
+                width: 50%;
+                color: lightgreen;
+                background-color:white;
+                padding: 0.6vw;
+                box-sizing: border-box;
+                font-weight: bold;
+                height: 3.2vw;
+                margin-left: 2%;
+            }
+            article > other {
+                text-align: left;
+                font-size: 1.4vw;
+                display: inline-block;
+                width: 23%;
+                background-color: white;
+                padding: 0.6vw;
+                box-sizing: border-box;
+                height: 3.2vw;
+            }
+            article > descriptionlabel {
+                text-align: left;
+                font-size: 1.2vw;
+                display: inline-block;
+                width: 96%;
+                height: 100%;
+                font-weight: bold;
+                background-color:white;
+                padding: 10px;
+                padding-bottom: 0px;
+                box-sizing: border-box;
+                margin-left: 2%;
+                color: green;
+            }
+            article > description {
+                text-align: left;
+                font-size: 1vw;
+                display: inline-block;
+                width: 96%;
+                height: 100%;
+                background-color:white;
+                padding: 10px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                box-sizing: border-box;
+                margin-left: 2%;
+            }
+            article > requirementsLabel {
+                text-align: left;
+                font-size: 1.2vw;
+                width: 96%;
+                display: inline-block;
+                height: 100%;
+                font-weight: bold;
+                background-color:white;
+                padding:10px;
+                padding-bottom: 0px;
+                margin-left: 2%;
+                box-sizing: border-box;
+                color: green;
+            }
+            article > requirements {
+                text-align: left;
+                font-size: 1vw;
+                width: 96%;
+                display: inline-block;
+                height: 100%;
+                background-color:white;
+                padding:10px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                margin-left: 2%;
+                box-sizing: border-box;
+            }
+            article {
+                font-size: 0;
+            }
+            .menubar {
+                color: darkgray;
+            }
+            #numbers {
+                text-align: right;
+                background-color: white;
+                width: 800px;
+                height: 100px;
+                position: fixed;
+                left: 12.3%;
+                width: 75.4%;
+                top: 83%;
+                height: 5%;
+            }
+            article > number {
+                text-align: center;
+                font-size: 20px;
+                width: 100px;
+                display: inline-block;
+                border: 1px solid black;
+                color: lightgreen;
+                background-color:limegreen;
+                color: white;
+                padding: 5px;
+                margin-left: 5px;
+                box-sizing: border-box;
+                font-weight: bold;
+                height: 100%;
+            }
+            .add {
+                text-align: center;
+                font-size: 1.4vw;
+                display: inline-block;
+                background-color:limegreen;
+                color: white;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                box-sizing: border-box;
+                position: fixed;
+                left: 77.7%;
+                width: 10%;
+                top: 83%;
+            }
